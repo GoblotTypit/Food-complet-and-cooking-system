@@ -1,1 +1,6 @@
-{}
+{
+  "item_group.food_complet_and_cooking_system.fcacs": "Food CACS",
+  "item.food_complet_and_cooking_system.salt": "Salt",
+  "item.food_complet_and_cooking_system.flour": "Flour",
+  "block.food_complet_and_cooking_system.salt_stone_block": "Salt Stone "
+}

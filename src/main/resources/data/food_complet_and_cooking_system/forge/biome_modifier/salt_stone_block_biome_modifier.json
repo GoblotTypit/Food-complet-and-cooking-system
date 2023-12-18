@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "deep_cold_ocean",
+    "frozen_ocean",
+    "frozen_river",
+    "warm_ocean",
+    "ocean",
+    "lukewarm_ocean",
+    "deep_lukewarm_ocean",
+    "river",
+    "cold_ocean",
+    "deep_ocean",
+    "deep_frozen_ocean"
+  ],
+  "features": "food_complet_and_cooking_system:salt_stone_block",
+  "step": "underground_ores"
+}

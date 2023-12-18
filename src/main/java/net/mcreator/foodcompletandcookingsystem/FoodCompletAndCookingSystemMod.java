@@ -29,6 +29,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.foodcompletandcookingsystem.init.FoodCompletAndCookingSystemModTabs;
+import net.mcreator.foodcompletandcookingsystem.init.FoodCompletAndCookingSystemModItems;
+import net.mcreator.foodcompletandcookingsystem.init.FoodCompletAndCookingSystemModFeatures;
+import net.mcreator.foodcompletandcookingsystem.init.FoodCompletAndCookingSystemModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +51,13 @@ public class FoodCompletAndCookingSystemMod {
 	public FoodCompletAndCookingSystemMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		FoodCompletAndCookingSystemModBlocks.REGISTRY.register(bus);
+
+		FoodCompletAndCookingSystemModItems.REGISTRY.register(bus);
+
+		FoodCompletAndCookingSystemModTabs.REGISTRY.register(bus);
+		FoodCompletAndCookingSystemModFeatures.REGISTRY.register(bus);
 
 	}
 

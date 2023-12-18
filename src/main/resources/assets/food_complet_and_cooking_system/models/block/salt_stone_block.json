@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "food_complet_and_cooking_system:block/salt_block",
+    "particle": "food_complet_and_cooking_system:block/salt_block"
+  },
+  "render_type": "solid"
+}

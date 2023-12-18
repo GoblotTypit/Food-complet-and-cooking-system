@@ -41,12 +41,94 @@
         ]
       },
       "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "FCACS",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fcacs",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Update 1"
+    },
+    {
+      "name": "Flour",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flour",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodcompletandcookingsystem/item/FlourItem.java",
+          "src/main/resources/assets/food_complet_and_cooking_system/models/item/flour.json"
+        ]
+      },
+      "path": "~/Update 1/Items"
+    },
+    {
+      "name": "SaltStoneBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_stone_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodcompletandcookingsystem/world/features/ores/SaltStoneBlockFeature.java",
+          "src/main/resources/data/food_complet_and_cooking_system/worldgen/placed_feature/salt_stone_block.json",
+          "src/main/resources/assets/food_complet_and_cooking_system/models/item/salt_stone_block.json",
+          "src/main/resources/assets/food_complet_and_cooking_system/blockstates/salt_stone_block.json",
+          "src/main/java/net/mcreator/foodcompletandcookingsystem/block/SaltStoneBlockBlock.java",
+          "src/main/resources/data/food_complet_and_cooking_system/forge/biome_modifier/salt_stone_block_biome_modifier.json",
+          "src/main/resources/data/food_complet_and_cooking_system/worldgen/configured_feature/salt_stone_block.json",
+          "src/main/resources/assets/food_complet_and_cooking_system/models/block/salt_stone_block.json"
+        ]
+      },
+      "path": "~/Update 1/Blocs"
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodcompletandcookingsystem/item/SaltItem.java",
+          "src/main/resources/assets/food_complet_and_cooking_system/models/item/salt.json"
+        ]
+      },
+      "path": "~/Update 1/Items"
+    },
+    {
+      "name": "LootSaltStone",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_salt_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_complet_and_cooking_system/loot_tables/blocks/salt_stone_block.json"
+        ]
+      },
+      "path": "~/Update 1/Blocs"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.food_complet_and_cooking_system.fcacs": "Food CACS",
+      "item.food_complet_and_cooking_system.salt": "Salt",
+      "item.food_complet_and_cooking_system.flour": "Flour",
+      "block.food_complet_and_cooking_system.salt_stone_block": "Salt Stone "
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -56,6 +138,14 @@
         "children": [
           {
             "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Blocs",
             "children": []
           }
         ]

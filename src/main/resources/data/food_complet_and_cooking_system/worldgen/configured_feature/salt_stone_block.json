@@ -1,0 +1,31 @@
+{
+  "type": "food_complet_and_cooking_system:salt_stone_block",
+  "config": {
+    "size": 6,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:sand"
+          }
+        },
+        "state": {
+          "Name": "food_complet_and_cooking_system:salt_stone_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        "state": {
+          "Name": "food_complet_and_cooking_system:salt_stone_block"
+        }
+      }
+    ]
+  }
+}
