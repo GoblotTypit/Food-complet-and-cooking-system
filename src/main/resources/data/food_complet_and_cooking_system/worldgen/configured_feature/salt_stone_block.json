@@ -8,7 +8,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:sand"
+            "Name": "minecraft:gravel"
           }
         },
         "state": {
@@ -19,7 +19,18 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:gravel"
+            "Name": "minecraft:clay"
+          }
+        },
+        "state": {
+          "Name": "food_complet_and_cooking_system:salt_stone_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:sand"
           }
         },
         "state": {

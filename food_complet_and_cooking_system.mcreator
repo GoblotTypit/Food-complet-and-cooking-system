@@ -106,12 +106,12 @@
       "path": "~/Update 1/Items"
     },
     {
-      "name": "LootSaltStone",
+      "name": "LootSaltStoneBlock",
       "type": "loottable",
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "loot_salt_stone",
+      "registry_name": "loot_salt_stone_block",
       "metadata": {
         "files": [
           "src/main/resources/data/food_complet_and_cooking_system/loot_tables/blocks/salt_stone_block.json"

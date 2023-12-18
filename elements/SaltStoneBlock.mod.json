@@ -48,7 +48,7 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": true,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -157,14 +157,17 @@
     ],
     "blocksToReplace": [
       {
-        "value": "Blocks.SAND#0"
+        "value": "Blocks.GRAVEL"
       },
       {
-        "value": "Blocks.GRAVEL"
+        "value": "Blocks.CLAY"
+      },
+      {
+        "value": "Blocks.SAND#0"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 1,
+    "frequencyPerChunks": 32,
     "frequencyOnChunk": 6,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 80
