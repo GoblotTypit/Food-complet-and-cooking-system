@@ -11,16 +11,16 @@
       "item": "minecraft:dirt"
     },
     "3": {
-      "item": "minecraft:dirt"
+      "tag": "minecraft:planks"
     },
     "4": {
       "item": "minecraft:flower_pot"
     },
     "5": {
-      "item": "minecraft:dirt"
+      "tag": "minecraft:planks"
     },
     "7": {
-      "item": "minecraft:dirt"
+      "tag": "minecraft:planks"
     }
   },
   "result": {
