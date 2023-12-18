@@ -19,4 +19,10 @@ authors="typit, MCreator"
 
 
 
+[[dependencies.food_complet_and_cooking_system]]
+    modId="JEI"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

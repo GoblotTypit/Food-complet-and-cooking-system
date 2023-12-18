@@ -27,6 +27,20 @@
         ]
       },
       "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "ComposterOver",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "composter_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/composter.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
     }
   ],
   "variable_elements": [],
@@ -60,8 +74,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "JEI"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.foodcompletandcookingsystem",
     "lockBaseModFiles": false
   },
