@@ -1,0 +1,69 @@
+{
+  "mod_elements": [
+    {
+      "name": "FurnaceOver",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/furnace.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "FurnaceOver2",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_over_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_complet_and_cooking_system/recipes/furnace2.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Update 1",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "food_complet_and_cooking_system",
+    "modName": "Food complet and cooking system",
+    "version": "1.0.0",
+    "author": "typit, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.foodcompletandcookingsystem",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
