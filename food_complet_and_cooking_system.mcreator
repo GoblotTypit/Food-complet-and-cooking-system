@@ -118,6 +118,92 @@
         ]
       },
       "path": "~/Update 1/Blocs"
+    },
+    {
+      "name": "BreadOver",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/bread.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "FlourOver",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flour_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_complet_and_cooking_system/recipes/flour_over.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "Yeast",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodcompletandcookingsystem/item/YeastItem.java",
+          "src/main/resources/assets/food_complet_and_cooking_system/models/item/yeast.json"
+        ]
+      },
+      "path": "~/Update 1/Items"
+    },
+    {
+      "name": "YeastOver",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeast_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_complet_and_cooking_system/recipes/yeast.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "ChocolateMilk",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_milk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/food_complet_and_cooking_system/models/item/chocolate_milk.json",
+          "src/main/java/net/mcreator/foodcompletandcookingsystem/item/ChocolateMilkItem.java"
+        ]
+      },
+      "path": "~/Update 1/Items"
+    },
+    {
+      "name": "ChocolateMilkOver",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_milk_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_complet_and_cooking_system/recipes/chocolate_milk.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
     }
   ],
   "variable_elements": [],
@@ -127,6 +213,8 @@
       "item_group.food_complet_and_cooking_system.fcacs": "Food CACS",
       "item.food_complet_and_cooking_system.salt": "Salt",
       "item.food_complet_and_cooking_system.flour": "Flour",
+      "item.food_complet_and_cooking_system.chocolate_milk": "Chocolate Milk",
+      "item.food_complet_and_cooking_system.yeast": "Yeast",
       "block.food_complet_and_cooking_system.salt_stone_block": "Salt Stone "
     }
   },

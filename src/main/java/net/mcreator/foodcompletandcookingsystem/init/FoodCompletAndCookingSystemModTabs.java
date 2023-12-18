@@ -22,5 +22,7 @@ public class FoodCompletAndCookingSystemModTabs {
 				tabData.accept(FoodCompletAndCookingSystemModItems.FLOUR.get());
 				tabData.accept(FoodCompletAndCookingSystemModBlocks.SALT_STONE_BLOCK.get().asItem());
 				tabData.accept(FoodCompletAndCookingSystemModItems.SALT.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.YEAST.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.CHOCOLATE_MILK.get());
 			}).withSearchBar().build());
 }

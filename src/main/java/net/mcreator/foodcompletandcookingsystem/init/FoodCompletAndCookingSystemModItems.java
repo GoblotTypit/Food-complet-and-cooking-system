@@ -12,8 +12,10 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.foodcompletandcookingsystem.item.YeastItem;
 import net.mcreator.foodcompletandcookingsystem.item.SaltItem;
 import net.mcreator.foodcompletandcookingsystem.item.FlourItem;
+import net.mcreator.foodcompletandcookingsystem.item.ChocolateMilkItem;
 import net.mcreator.foodcompletandcookingsystem.FoodCompletAndCookingSystemMod;
 
 public class FoodCompletAndCookingSystemModItems {
@@ -21,6 +23,8 @@ public class FoodCompletAndCookingSystemModItems {
 	public static final RegistryObject<Item> FLOUR = REGISTRY.register("flour", () -> new FlourItem());
 	public static final RegistryObject<Item> SALT_STONE_BLOCK = block(FoodCompletAndCookingSystemModBlocks.SALT_STONE_BLOCK);
 	public static final RegistryObject<Item> SALT = REGISTRY.register("salt", () -> new SaltItem());
+	public static final RegistryObject<Item> YEAST = REGISTRY.register("yeast", () -> new YeastItem());
+	public static final RegistryObject<Item> CHOCOLATE_MILK = REGISTRY.register("chocolate_milk", () -> new ChocolateMilkItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

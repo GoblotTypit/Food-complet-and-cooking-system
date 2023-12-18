@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "food_complet_and_cooking_system:flour"
+    },
+    "1": {
+      "item": "food_complet_and_cooking_system:flour"
+    },
+    "2": {
+      "item": "food_complet_and_cooking_system:flour"
+    }
+  },
+  "result": {
+    "item": "minecraft:bread",
+    "count": 1
+  }
+}
