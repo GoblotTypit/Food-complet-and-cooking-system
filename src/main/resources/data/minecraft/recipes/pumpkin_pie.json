@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "food_complet_and_cooking_system:butter"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "minecraft:pumpkin"
+    },
+    "5": {
+      "item": "food_complet_and_cooking_system:yeast"
+    },
+    "7": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "minecraft:pumpkin_pie",
+    "count": 1
+  }
+}

@@ -19,6 +19,7 @@ import net.mcreator.foodcompletandcookingsystem.item.PepperItem;
 import net.mcreator.foodcompletandcookingsystem.item.FlourItem;
 import net.mcreator.foodcompletandcookingsystem.item.ChocolateMilkItem;
 import net.mcreator.foodcompletandcookingsystem.item.ButterItem;
+import net.mcreator.foodcompletandcookingsystem.item.BakingSodaItem;
 import net.mcreator.foodcompletandcookingsystem.FoodCompletAndCookingSystemMod;
 
 public class FoodCompletAndCookingSystemModItems {
@@ -31,6 +32,7 @@ public class FoodCompletAndCookingSystemModItems {
 	public static final RegistryObject<Item> PEPPER = REGISTRY.register("pepper", () -> new PepperItem());
 	public static final RegistryObject<Item> SKIMMED_MILK = REGISTRY.register("skimmed_milk", () -> new SkimmedMilkItem());
 	public static final RegistryObject<Item> BUTTER = REGISTRY.register("butter", () -> new ButterItem());
+	public static final RegistryObject<Item> BAKING_SODA = REGISTRY.register("baking_soda", () -> new BakingSodaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

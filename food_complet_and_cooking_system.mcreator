@@ -291,6 +291,105 @@
         ]
       },
       "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "BakingSoda",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baking_soda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodcompletandcookingsystem/item/BakingSodaItem.java",
+          "src/main/resources/assets/food_complet_and_cooking_system/models/item/baking_soda.json"
+        ]
+      },
+      "path": "~/Update 1/Items"
+    },
+    {
+      "name": "BakingSodaOver",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baking_soda_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_complet_and_cooking_system/recipes/baking_soda_over.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "CakeOver",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/cake.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "PumpkinPieOver",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_pie_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/pumpkin_pie.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "PepperOver",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepper_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_complet_and_cooking_system/recipes/pepper_over.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "BlashFurnaceOver",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blash_furnace_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/blash_furnace.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "CookieOver",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookie_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/cookie.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
     }
   ],
   "variable_elements": [],
@@ -298,6 +397,7 @@
   "language_map": {
     "en_us": {
       "item_group.food_complet_and_cooking_system.fcacs": "Food CACS",
+      "item.food_complet_and_cooking_system.baking_soda": "Baking Soda",
       "item.food_complet_and_cooking_system.pepper": "Pepper",
       "item.food_complet_and_cooking_system.salt": "Salt",
       "item.food_complet_and_cooking_system.flour": "Flour",

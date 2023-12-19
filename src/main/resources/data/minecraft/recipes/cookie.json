@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "food_complet_and_cooking_system:butter"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "food_complet_and_cooking_system:flour"
+    },
+    "4": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "5": {
+      "item": "food_complet_and_cooking_system:flour"
+    }
+  },
+  "result": {
+    "item": "minecraft:cookie",
+    "count": 1
+  }
+}

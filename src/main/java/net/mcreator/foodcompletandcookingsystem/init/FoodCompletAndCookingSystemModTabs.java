@@ -27,5 +27,6 @@ public class FoodCompletAndCookingSystemModTabs {
 				tabData.accept(FoodCompletAndCookingSystemModItems.PEPPER.get());
 				tabData.accept(FoodCompletAndCookingSystemModItems.SKIMMED_MILK.get());
 				tabData.accept(FoodCompletAndCookingSystemModItems.BUTTER.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.BAKING_SODA.get());
 			}).withSearchBar().build());
 }

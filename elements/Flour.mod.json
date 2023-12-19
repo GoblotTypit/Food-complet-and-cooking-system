@@ -31,7 +31,7 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "isFood": true,
+    "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.1,
     "eatResultItem": {
@@ -39,6 +39,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": true,
-    "animation": "eat"
+    "animation": "none"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone_meal"
+    },
+    "1": {
+      "item": "food_complet_and_cooking_system:salt"
+    }
+  },
+  "result": {
+    "item": "food_complet_and_cooking_system:baking_soda",
+    "count": 1
+  }
+}
