@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Blocks.PLANKS"
       },
       {
-        "value": ""
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": ""
+        "value": "Blocks.PLANKS"
       },
       {
-        "value": ""
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.VINE"
+        "value": "Blocks.CAMPFIRE"
       },
       {
-        "value": ""
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": ""
+        "value": "Blocks.PLANKS"
       },
       {
-        "value": ""
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": ""
+        "value": "Blocks.PLANKS"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Yeast"
+      "value": "Blocks.SMOKER"
     },
-    "name": "yeast",
-    "namespace": "mod"
+    "name": "smoker",
+    "namespace": "minecraft"
   }
 }

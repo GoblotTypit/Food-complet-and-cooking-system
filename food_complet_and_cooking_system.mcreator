@@ -204,6 +204,20 @@
         ]
       },
       "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "SmokerOver",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoker_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/smoker.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
     }
   ],
   "variable_elements": [],
@@ -234,6 +248,10 @@
           },
           {
             "name": "Blocs",
+            "children": []
+          },
+          {
+            "name": "Plants",
             "children": []
           }
         ]

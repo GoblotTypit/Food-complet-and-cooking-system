@@ -2,15 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1"
+    "0"
   ],
   "key": {
     "0": {
-      "item": "minecraft:red_mushroom"
-    },
-    "1": {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:vine"
     }
   },
   "result": {
