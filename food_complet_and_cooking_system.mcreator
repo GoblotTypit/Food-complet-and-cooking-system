@@ -218,6 +218,79 @@
         ]
       },
       "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "Pepper",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/food_complet_and_cooking_system/models/item/pepper.json",
+          "src/main/java/net/mcreator/foodcompletandcookingsystem/item/PepperItem.java"
+        ]
+      },
+      "path": "~/Update 1/Items"
+    },
+    {
+      "name": "SkimmedMilk",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skimmed_milk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodcompletandcookingsystem/item/SkimmedMilkItem.java",
+          "src/main/resources/assets/food_complet_and_cooking_system/models/item/skimmed_milk.json"
+        ]
+      },
+      "path": "~/Update 1/Items"
+    },
+    {
+      "name": "Butter",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/foodcompletandcookingsystem/item/ButterItem.java",
+          "src/main/resources/assets/food_complet_and_cooking_system/models/item/butter.json"
+        ]
+      },
+      "path": "~/Update 1/Items"
+    },
+    {
+      "name": "SkimmedMilkOver",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skimmed_milk_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_complet_and_cooking_system/recipes/skimmed_milk_over.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
+    },
+    {
+      "name": "ButterOver",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_over",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/food_complet_and_cooking_system/recipes/butter_over.json"
+        ]
+      },
+      "path": "~/Update 1/Recipes"
     }
   ],
   "variable_elements": [],
@@ -225,11 +298,14 @@
   "language_map": {
     "en_us": {
       "item_group.food_complet_and_cooking_system.fcacs": "Food CACS",
+      "item.food_complet_and_cooking_system.pepper": "Pepper",
       "item.food_complet_and_cooking_system.salt": "Salt",
       "item.food_complet_and_cooking_system.flour": "Flour",
       "item.food_complet_and_cooking_system.chocolate_milk": "Chocolate Milk",
       "item.food_complet_and_cooking_system.yeast": "Yeast",
-      "block.food_complet_and_cooking_system.salt_stone_block": "Salt Stone "
+      "block.food_complet_and_cooking_system.salt_stone_block": "Salt Stone ",
+      "item.food_complet_and_cooking_system.skimmed_milk": "Skimmed Milk",
+      "item.food_complet_and_cooking_system.butter": "Butter"
     }
   },
   "foldersRoot": {
@@ -248,10 +324,6 @@
           },
           {
             "name": "Blocs",
-            "children": []
-          },
-          {
-            "name": "Plants",
             "children": []
           }
         ]

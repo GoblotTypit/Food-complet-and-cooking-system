@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "3": {
+      "item": "minecraft:milk_bucket"
+    },
+    "4": {
+      "item": "minecraft:bucket"
+    },
+    "5": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "food_complet_and_cooking_system:skimmed_milk",
+    "count": 1
+  }
+}

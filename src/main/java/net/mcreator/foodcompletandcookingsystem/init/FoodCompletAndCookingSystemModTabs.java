@@ -24,5 +24,8 @@ public class FoodCompletAndCookingSystemModTabs {
 				tabData.accept(FoodCompletAndCookingSystemModItems.SALT.get());
 				tabData.accept(FoodCompletAndCookingSystemModItems.YEAST.get());
 				tabData.accept(FoodCompletAndCookingSystemModItems.CHOCOLATE_MILK.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.PEPPER.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.SKIMMED_MILK.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.BUTTER.get());
 			}).withSearchBar().build());
 }
