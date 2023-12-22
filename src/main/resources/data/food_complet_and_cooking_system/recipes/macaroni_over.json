@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:potion"
+    },
+    "1": {
+      "item": "food_complet_and_cooking_system:flour"
+    },
+    "2": {
+      "item": "food_complet_and_cooking_system:flour"
+    },
+    "3": {
+      "item": "food_complet_and_cooking_system:flour"
+    }
+  },
+  "result": {
+    "item": "food_complet_and_cooking_system:macaroni",
+    "count": 1
+  }
+}

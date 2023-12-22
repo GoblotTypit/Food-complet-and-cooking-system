@@ -28,5 +28,10 @@ public class FoodCompletAndCookingSystemModTabs {
 				tabData.accept(FoodCompletAndCookingSystemModItems.SKIMMED_MILK.get());
 				tabData.accept(FoodCompletAndCookingSystemModItems.BUTTER.get());
 				tabData.accept(FoodCompletAndCookingSystemModItems.BAKING_SODA.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.DEPUTRIFIER.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.FLESH.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.FLESH_COOKED.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.BROWN_SUGAR.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.MACARONI.get());
 			}).withSearchBar().build());
 }

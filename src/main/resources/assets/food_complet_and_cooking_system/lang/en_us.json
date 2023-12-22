@@ -1,12 +1,17 @@
 {
   "item_group.food_complet_and_cooking_system.fcacs": "Food CACS",
-  "item.food_complet_and_cooking_system.baking_soda": "Baking Soda",
   "item.food_complet_and_cooking_system.pepper": "Pepper",
   "item.food_complet_and_cooking_system.salt": "Salt",
   "item.food_complet_and_cooking_system.flour": "Flour",
   "item.food_complet_and_cooking_system.chocolate_milk": "Chocolate Milk",
+  "item.food_complet_and_cooking_system.brown_sugar": "Brown Sugar",
   "item.food_complet_and_cooking_system.yeast": "Yeast",
-  "block.food_complet_and_cooking_system.salt_stone_block": "Salt Stone ",
   "item.food_complet_and_cooking_system.skimmed_milk": "Skimmed Milk",
-  "item.food_complet_and_cooking_system.butter": "Butter"
+  "item.food_complet_and_cooking_system.butter": "Butter",
+  "item.food_complet_and_cooking_system.flesh_cooked": "Flesh",
+  "item.food_complet_and_cooking_system.flesh": "Flesh",
+  "item.food_complet_and_cooking_system.macaroni": "Macaroni",
+  "item.food_complet_and_cooking_system.baking_soda": "Baking Soda",
+  "item.food_complet_and_cooking_system.deputrifier": "Deputrifier",
+  "block.food_complet_and_cooking_system.salt_stone_block": "Salt Stone "
 }

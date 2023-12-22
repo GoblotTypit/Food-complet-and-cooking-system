@@ -16,9 +16,14 @@ import net.mcreator.foodcompletandcookingsystem.item.YeastItem;
 import net.mcreator.foodcompletandcookingsystem.item.SkimmedMilkItem;
 import net.mcreator.foodcompletandcookingsystem.item.SaltItem;
 import net.mcreator.foodcompletandcookingsystem.item.PepperItem;
+import net.mcreator.foodcompletandcookingsystem.item.MacaroniItem;
 import net.mcreator.foodcompletandcookingsystem.item.FlourItem;
+import net.mcreator.foodcompletandcookingsystem.item.FleshItem;
+import net.mcreator.foodcompletandcookingsystem.item.FleshCookedItem;
+import net.mcreator.foodcompletandcookingsystem.item.DeputrifierItem;
 import net.mcreator.foodcompletandcookingsystem.item.ChocolateMilkItem;
 import net.mcreator.foodcompletandcookingsystem.item.ButterItem;
+import net.mcreator.foodcompletandcookingsystem.item.BrownSugarItem;
 import net.mcreator.foodcompletandcookingsystem.item.BakingSodaItem;
 import net.mcreator.foodcompletandcookingsystem.FoodCompletAndCookingSystemMod;
 
@@ -33,6 +38,11 @@ public class FoodCompletAndCookingSystemModItems {
 	public static final RegistryObject<Item> SKIMMED_MILK = REGISTRY.register("skimmed_milk", () -> new SkimmedMilkItem());
 	public static final RegistryObject<Item> BUTTER = REGISTRY.register("butter", () -> new ButterItem());
 	public static final RegistryObject<Item> BAKING_SODA = REGISTRY.register("baking_soda", () -> new BakingSodaItem());
+	public static final RegistryObject<Item> DEPUTRIFIER = REGISTRY.register("deputrifier", () -> new DeputrifierItem());
+	public static final RegistryObject<Item> FLESH = REGISTRY.register("flesh", () -> new FleshItem());
+	public static final RegistryObject<Item> FLESH_COOKED = REGISTRY.register("flesh_cooked", () -> new FleshCookedItem());
+	public static final RegistryObject<Item> BROWN_SUGAR = REGISTRY.register("brown_sugar", () -> new BrownSugarItem());
+	public static final RegistryObject<Item> MACARONI = REGISTRY.register("macaroni", () -> new MacaroniItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

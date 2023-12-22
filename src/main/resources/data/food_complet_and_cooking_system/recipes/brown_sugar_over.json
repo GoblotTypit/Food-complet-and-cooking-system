@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result": {
+    "item": "food_complet_and_cooking_system:brown_sugar",
+    "count": 1
+  }
+}
