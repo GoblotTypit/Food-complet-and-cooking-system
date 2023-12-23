@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "food_complet_and_cooking_system:block/phase1_11",
+    "particle": "food_complet_and_cooking_system:block/phase1_11"
+  },
+  "render_type": "cutout_mipped"
+}

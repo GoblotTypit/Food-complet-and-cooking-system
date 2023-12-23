@@ -21,6 +21,7 @@ import net.mcreator.foodcompletandcookingsystem.item.FlourItem;
 import net.mcreator.foodcompletandcookingsystem.item.FleshItem;
 import net.mcreator.foodcompletandcookingsystem.item.FleshCookedItem;
 import net.mcreator.foodcompletandcookingsystem.item.DeputrifierItem;
+import net.mcreator.foodcompletandcookingsystem.item.CornItem;
 import net.mcreator.foodcompletandcookingsystem.item.ChocolateMilkItem;
 import net.mcreator.foodcompletandcookingsystem.item.ButterItem;
 import net.mcreator.foodcompletandcookingsystem.item.BrownSugarItem;
@@ -43,6 +44,18 @@ public class FoodCompletAndCookingSystemModItems {
 	public static final RegistryObject<Item> FLESH_COOKED = REGISTRY.register("flesh_cooked", () -> new FleshCookedItem());
 	public static final RegistryObject<Item> BROWN_SUGAR = REGISTRY.register("brown_sugar", () -> new BrownSugarItem());
 	public static final RegistryObject<Item> MACARONI = REGISTRY.register("macaroni", () -> new MacaroniItem());
+	public static final RegistryObject<Item> CORN = REGISTRY.register("corn", () -> new CornItem());
+	public static final RegistryObject<Item> CROPSSTAGE_0 = block(FoodCompletAndCookingSystemModBlocks.CROPSSTAGE_0);
+	public static final RegistryObject<Item> CROPSSTAGE_1 = block(FoodCompletAndCookingSystemModBlocks.CROPSSTAGE_1);
+	public static final RegistryObject<Item> CROPSSTAGE_2 = block(FoodCompletAndCookingSystemModBlocks.CROPSSTAGE_2);
+	public static final RegistryObject<Item> CROPSSTAGE_3 = block(FoodCompletAndCookingSystemModBlocks.CROPSSTAGE_3);
+	public static final RegistryObject<Item> CROPSSTAGE_4 = block(FoodCompletAndCookingSystemModBlocks.CROPSSTAGE_4);
+	public static final RegistryObject<Item> CROPSSTAGE_5 = block(FoodCompletAndCookingSystemModBlocks.CROPSSTAGE_5);
+	public static final RegistryObject<Item> CROPSSTAGE_6 = block(FoodCompletAndCookingSystemModBlocks.CROPSSTAGE_6);
+	public static final RegistryObject<Item> CROPSSTAGE_7 = block(FoodCompletAndCookingSystemModBlocks.CROPSSTAGE_7);
+	public static final RegistryObject<Item> CROPSSTAGE_8 = block(FoodCompletAndCookingSystemModBlocks.CROPSSTAGE_8);
+	public static final RegistryObject<Item> CROPSSTAGE_9 = block(FoodCompletAndCookingSystemModBlocks.CROPSSTAGE_9);
+	public static final RegistryObject<Item> CROSSSTAGE_10 = block(FoodCompletAndCookingSystemModBlocks.CROSSSTAGE_10);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

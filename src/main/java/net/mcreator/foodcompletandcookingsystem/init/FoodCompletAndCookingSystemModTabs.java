@@ -33,5 +33,6 @@ public class FoodCompletAndCookingSystemModTabs {
 				tabData.accept(FoodCompletAndCookingSystemModItems.FLESH_COOKED.get());
 				tabData.accept(FoodCompletAndCookingSystemModItems.BROWN_SUGAR.get());
 				tabData.accept(FoodCompletAndCookingSystemModItems.MACARONI.get());
+				tabData.accept(FoodCompletAndCookingSystemModItems.CORN.get());
 			}).withSearchBar().build());
 }

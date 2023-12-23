@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "1": {
+      "item": "food_complet_and_cooking_system:deputrifier"
+    }
+  },
+  "result": {
+    "item": "minecraft:potato",
+    "count": 1
+  }
+}
